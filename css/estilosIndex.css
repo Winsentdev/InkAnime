@@ -76,6 +76,19 @@ body {
   color: #00bcd4;
 }
 
+.estrenos {
+  min-height: 100vh; /* Ocupa el 100% del alto de la ventana */
+  background-image: url('/img/fondo1.jpg');        
+  background-size: cover;   /* Asegura que la imagen cubra todo el área */  
+  background-position: center;     /* Centra la imagen */
+  background-repeat: no-repeat;   /* No repite la imagen */
+  padding: 20px;
+  border-radius: 8px;
+  color: white;   /* Para que el texto contraste */
+  position: relative;
+  overflow: hidden;
+}
+
 .video-cards {
   display: flex;
   gap: 20px;
