@@ -19,6 +19,7 @@ body {
 
 /* Sidebar */
 .sidebar {
+  position: fixed;
   width: 220px;
   background-color: #1e1e1e;
   padding: 20px;
